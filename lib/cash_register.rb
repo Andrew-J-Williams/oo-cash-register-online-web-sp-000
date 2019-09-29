@@ -42,7 +42,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    @total -= @price.to_f
+    @total -= @price
   end
 
 end
