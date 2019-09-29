@@ -44,7 +44,8 @@ class CashRegister
   end
 
   def void_last_transaction
-    @total -= @price * @quantity # takes the last price and quantity entered and subtracts it from 
+    @total -= @price * @quantity # takes the last price and quantity entered and subtracts it from the total.
+    # Multiplying the quantity accounts for duplicate items
   end
 
 end
