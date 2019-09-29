@@ -13,6 +13,7 @@ class CashRegister
 
   def apply_discount
     discount_float = (discount.to_f/100)
+    discount_float
   end
 
 end
