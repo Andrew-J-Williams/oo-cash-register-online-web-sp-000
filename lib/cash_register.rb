@@ -40,11 +40,11 @@ class CashRegister
   end
 
   def items
-    @item
+    @item # returns our array of titles.
   end
 
   def void_last_transaction
-    @total -= @price * @quantity
+    @total -= @price * @quantity # takes the last price and quantity entered and subtracts it from 
   end
 
 end
