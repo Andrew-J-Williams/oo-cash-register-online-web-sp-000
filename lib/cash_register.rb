@@ -4,9 +4,9 @@ class CashRegister
 
 
   def initialize (discount = 0) # We set our discount to zero unless the user decides to input a value.
-    @total = 0
-    @discount = discount
-    @item = []
+    @total = 0 # We initialize and set our total to zero.
+    @discount = discount # We initialize our discount variable if a value is set.
+    @item = [] # We also initialize an array that will hold the name of our products
   end
 
   def add_item(title, price, quantity = 1)
