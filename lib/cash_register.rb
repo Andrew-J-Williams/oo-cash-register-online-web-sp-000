@@ -14,6 +14,7 @@ class CashRegister
     @price = price
     @total += (price * quantity)
 
+    # We also create an 'if/then' statement to account for 
     if quantity > 1
       counter = 0
       while counter < quantity
