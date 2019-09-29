@@ -16,6 +16,7 @@ class CashRegister
     if @discount != 0
       discount_total = @total * (discount.to_f/100)
       @total -= discount_total
+      puts "After the discount, the total comes to #{@total}."
 
 
   end
