@@ -3,7 +3,7 @@ class CashRegister
   attr_accessor :total, :discount, :title, :price, :quantity
 
 
-  def initialize (discount = 0)
+  def initialize (discount = 0) # We set our discount to zero unless the user decides to input a value.
     @total = 0
     @discount = discount
     @item = []
